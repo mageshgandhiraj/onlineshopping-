@@ -11,7 +11,6 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
    
    <context:component-scan base-package="net.niit.onlineshopping.controller"/>
-   <context:component-scan base-package="net.niit.shoppingbackend.daoimpl"/>
 
 
 	<bean id="viewResolver"
