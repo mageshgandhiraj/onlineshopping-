@@ -25,7 +25,7 @@ public class CategoryTestCase {
 		context = new AnnotationConfigApplicationContext();
 		context.scan("net.niit.shoppingbackend");
 		context.refresh();
-		categoryDAO = (CategoryDAO)context.getBean("CategoryDAO");
+		categoryDAO = (CategoryDAO)context.getBean("categoryDAO");
 	}
 	
 @Test
